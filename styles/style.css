@@ -1,0 +1,42 @@
+/* body Style */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner style  */
+.main-header {
+    width: 1351px;
+    height: 646px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: ;
+
+    background-color: #440C5D;
+    color: aliceblue;
+
+}
+
+/* banner: banner title, banner text, anchor button  */
+.banner {
+    width: 531px;
+    height: 424px;
+}
+
+/* banner title style */
+.banner-title {
+    width: 531px;
+    height: 240px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    color: #FFFFFF;
+    ;
+}
+
+.banner-text{
+    width: 506px;
+    
+}
+

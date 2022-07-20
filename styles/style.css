@@ -8,7 +8,7 @@ body {
 .main-header {
     width: 1321px;
     height: 646px;
-    margin-left:140px;
+    margin-left: 140px;
     margin-right: 140px;
     display: flex;
     flex-direction: row;
@@ -46,8 +46,18 @@ body {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 50px;
+    width: 500px;
+    height: 100px;
+
 
 }
+
+.banner-text-full {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 .banner a {
     text-decoration: none;
@@ -136,7 +146,6 @@ body {
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    grid-column-end: ;
     gap: 24px;
 }
 
@@ -236,18 +245,27 @@ hr {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     text-align: center;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
 }
 
-.social-media{
+.social-media {
+    padding-top: 10px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.fa-brands {
+    width: 30px;
+    height: 30px;
+    color: white;
 }

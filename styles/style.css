@@ -6,15 +6,19 @@ body {
 
 /* banner style  */
 .main-header {
-    width: 1351px;
+    width: 1321px;
     height: 646px;
+    margin-left:140px;
+    margin-right: 140px;
     display: flex;
     flex-direction: row;
+    justify-content: start;
     align-items: center;
-    justify-items: ;
-
+    gap: 50px;
     background-color: #440C5D;
     color: aliceblue;
+    border-radius: 30px;
+    /* margin: auto; */
 
 }
 
@@ -22,21 +26,228 @@ body {
 .banner {
     width: 531px;
     height: 424px;
+    margin-left: 106px;
+    margin-top: 80px;
+    margin-bottom: 111px;
 }
 
 /* banner title style */
 .banner-title {
     width: 531px;
     height: 240px;
-    font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 80px;
     color: #FFFFFF;
     ;
 }
 
-.banner-text{
+.banner-text {
     width: 506px;
-    
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+
 }
 
+.banner a {
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    padding: 16px 25px;
+    gap: 10px;
+}
+
+.banner-image {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-right: 79px;
+    padding-left: 50px;
+}
+
+.banner-image:hover {
+    /* background-color: lightblue; */
+    transform: translateY(100px);
+}
+
+.container {
+    margin-left: 50p;
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+/* Aside style */
+.active-pages {
+    width: 312px;
+    height: 312px;
+    border-radius: 30px;
+    margin-left: 140px;
+}
+
+.match-details {
+    height: 252px;
+    width: 252;
+    background-color: #440C5D;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    align-items: center;
+    align-content: center;
+    border-radius: 15px;
+    text-decoration: none;
+    grid-template-columns: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.matches {
+    background-color: white;
+    border-radius: 10px;
+    width: 252px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+
+
+}
+
+/*  */
+#blog,
+#all-group,
+#upcoming-match {
+    text-decoration: none;
+
+}
+
+.all-blogs {
+    background-color: red;
+    color: #FFFFFF;
+}
+
+/* style of article section */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-column-end: ;
+    gap: 24px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 362px;
+    border: .5px solid rgb(216, 214, 214);
+    border-radius: 5px;
+
+
+
+}
+
+#transfer-btn {
+    background-color: white;
+    border: 1px solid #161616;
+    margin-top: 10px;
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #161616;
+    margin-left: 20px;
+
+}
+
+.blog-text {
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    width: 272px;
+    height: 54px;
+    padding-left: 20px;
+}
+
+#duration,
+#total-chat {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#clock-icon,
+#chat-icon {
+    width: 24px;
+    height: 24px;
+
+}
+
+#blog-spans {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+/* footer styles */
+footer {
+    width: 1321px;
+    height: 444px;
+    margin-left: 140px;
+    background-color: #440C5D;
+    align-items: center;
+    color: white;
+
+}
+
+hr {
+    width: 1320px;
+    background: #FFFFFF1A;
+    ;
+}
+
+.footer-head {
+    padding-top: 130px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.footer-contents {
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.social-media{
+    display: flex;
+    gap: 10px;
+}

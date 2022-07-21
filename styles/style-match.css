@@ -305,8 +305,45 @@ hr {
 
 /* Responsive Style*/
 
+/* Mobile Devices */
+@media only screen and (max-width: 668px) {
+
+    .main-header {
+        width: 100%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    .footer-content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+
+    }
+
+
+}
+
 /* Tablet Devices */
-@media only screen and (min-width:688px) {
+
+@media only screen and (min-width: 669) and (max-width:992) {
+
+    .main-header {
+        width: 100%;
 
 
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+
+    }
+
+    .footer-content {
+        width: 100%;
+    }
 }

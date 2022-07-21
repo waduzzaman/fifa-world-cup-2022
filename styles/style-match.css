@@ -50,11 +50,11 @@ body {
     height: 100px;
 }
 
-.banner-text-full {
+/* .banner-text-full {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+} */
 
 
 .banner a {
@@ -87,6 +87,7 @@ body {
     gap: 10px;
     margin-top: 50px;
 
+
 }
 
 /* Aside style */
@@ -95,12 +96,17 @@ body {
     height: 312px;
     border-radius: 30px;
     margin-left: 140px;
+    background-color: #440C5D;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .match-details {
     height: 252px;
-    width: 252;
-    background-color: #440C5D;
+    width: 252px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 20px;
@@ -112,6 +118,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px;
+    margin-left: 10px;
 
 
 }
@@ -123,6 +131,9 @@ body {
     height: 50px;
     text-align: center;
     padding-top: 15px;
+    margin-top: 0px;
+    border: 1px solid gray;
+
 
 
 }
@@ -133,14 +144,41 @@ body {
 #upcoming-match {
     text-decoration: none;
 
+
+}
+
+.upcoming-matches {
+    background-color: #DD0000;
 }
 
 .all-blogs {
-    background-color: red;
+
     color: #FFFFFF;
+
 }
 
-/* style of article section */
+/* style of match section */
+
+.flags {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.germany-vs-france {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.match-details {
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFFFFF;
+
+}
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
